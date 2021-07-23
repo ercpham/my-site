@@ -1,0 +1,32 @@
+.foot {
+  background-color: var(--color-primary-4);
+  height: 7vh;
+  width: auto;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  overflow: auto;
+  padding: 0 3em 0 3em;
+  align-items: center;
+  z-index: 3;
+  box-shadow: 0 -0.1em .4em rgba(0, 0, 0, 0.5);
+  width: 100vw;
+}
+
+.icon-wrap {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  padding: 0em 1em 0em 1em;
+  height: 50%;
+  width: auto;
+  color: var(--color-primary-2);
+  filter: brightness(0.9);
+}
+
+.icon:hover {
+  filter: brightness(0.8);
+}

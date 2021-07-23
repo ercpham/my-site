@@ -44,11 +44,11 @@
 .block1 {
   background: linear-gradient(var(--color-primary-4), var(--color-primary-3));
   /* background-color: var(--color-primary-4); */
-  height: 35vh;
-  width: 200em;
-  transform: rotate(0deg) translate(-20em, 20em);
-  bottom: -15em;
-  left: -10em;
+  height: 65vh;
+  width: 200vw;
+  transform: rotate(0deg) translate(-30em, 30em);
+  bottom: -50vh;
+  left: -10vw;
   position: absolute;
   transition: 1s;
 }
@@ -56,29 +56,29 @@
 .block2 {
   background: linear-gradient(var(--color-primary-3), var(--color-primary-4));
   /* background-color: var(--color-primary-3); */
-  height: 35vh;
-  width: 200em;
-  transform: rotate(-0deg) translate(20em, 20em);
-  bottom: -15em;
-  right: -10em;
+  height: 65vh;
+  width: 200vw;
+  transform: rotate(-0deg) translate(30em, 30em);
+  bottom: -50vh;
+  right: -10vw;
   position: absolute;
   transition: 1s;
 }
 
 .pushup-1 {
-  transform: rotate(8deg) translate(0em, 0em);
+  transform: rotate(8deg) translate(0em, 3em);
   border-radius: 15%;
 }
 .pushup-2 {
-  transform: rotate(-8deg) translate(0em, 0em);
+  transform: rotate(-8deg) translate(0em, 3em);
   border-radius: 15%;
 }
 
 .part-left {
-  transform: rotate(8deg) translateY(20em);
+  transform: rotate(18deg) translateY(40em);
 }
 .part-right {
-  transform: rotate(8deg) translateY(20em);
+  transform: rotate(-18deg) translateY(40em);
 }
 
 .left::before {

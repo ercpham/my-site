@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import "../styles/BlueBack.css";
 import { useGlobalContext } from "../context/context";
 function BlueBack() {

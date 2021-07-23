@@ -5,7 +5,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: [txt] 50% [picture] auto;
-  grid-template-rows: [main] 70vh [foot] 20vh;
+  grid-template-rows: [main] 90vh;
 }
 
 .home-text {

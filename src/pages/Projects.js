@@ -7,48 +7,50 @@ import "../styles/Projects.css";
 function Projects() {
   return (
     <div className = "fade">
-      <div className="projectGrid">
-        <div className="project">
-          <p> Calculator </p>
-          <a
-            href="https://ercpham.github.io/calculator/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={calculator} alt="Calculator" />
-          </a>
+      <div className="grid-container">
+        <div className="projectGrid">
+          <div className="project">
+            <p> Calculator </p>
+            <a
+              href="https://ercpham.github.io/calculator/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={calculator} alt="Calculator" />
+            </a>
+          </div>
+          <div className="project">
+            <p> Tic-Tac-Toe </p>
+            <a
+              href="https://ercpham.github.io/tictactoe/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={ttt} alt="Tic-Tac-Toe" />
+            </a>
+          </div>
+          <div className="project">
+            <p> Etch-a-Sketch </p>
+            <a
+              href="https://ercpham.github.io/etchsketch/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={etchsketch} alt="Etch-a-Sketch" />
+            </a>
+          </div>
+          <div className="project">
+            <p> Breakout Game </p>
+            <a
+             href = "https://ercpham.github.io/breakout_tutorial/"
+             target = "_blank"
+             rel="noopener noreferrer">
+               <img src={breakout} alt="Breakout" />
+             </a>
+          </div>
+          <div className="project"></div>
+          <div className="project"></div>
         </div>
-        <div className="project">
-          <p> Tic-Tac-Toe </p>
-          <a
-            href="https://ercpham.github.io/tictactoe/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={ttt} alt="Tic-Tac-Toe" />
-          </a>
-        </div>
-        <div className="project">
-          <p> Etch-a-Sketch </p>
-          <a
-            href="https://ercpham.github.io/etchsketch/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={etchsketch} alt="Etch-a-Sketch" />
-          </a>
-        </div>
-        <div className="project">
-          <p> Breakout Game </p>
-          <a 
-           href = "https://ercpham.github.io/breakout_tutorial/"
-           target = "_blank"
-           rel="noopener noreferrer">
-             <img src={breakout} alt="Breakout" />
-           </a>
-        </div>
-        <div className="project"></div>
-        <div className="project"></div>
       </div>
     </div>
   );

@@ -15,3 +15,9 @@ export const links = [
     text: "contact",
   },
 ];
+
+export const keys = {
+  service_id: "service_b7m0sms",
+  template_id: "template_eclbr9o",
+  user_id: "user_CYB9vzuMbiy6XNiK3yRd1",
+};

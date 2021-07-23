@@ -44,8 +44,7 @@ function Carousel() {
           <div className="slideContainer" style={containerStyle}>
             <div className={`slide slide1`}>
               <h6>
-                I'm currently a student at UC San Diego studying Computer
-                Science
+                I study Computer Science at UC San Diego 
               </h6>
             </div>
             <div className={`slide slide2`}>
