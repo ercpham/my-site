@@ -11,9 +11,6 @@
 # production
 /build
 
-# hidden data 
-/src/data/data.js
-
 # misc
 .DS_Store
 .env.local
