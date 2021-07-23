@@ -1,0 +1,93 @@
+.carousel-wrap {
+  background: linear-gradient(white, var(--color-primary-4));
+  height: 90vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  --slide-height: 70vh;
+  --slide-width: 70vw;
+  --num-slides: 3;
+}
+.carousel {
+  text-align: center;
+  position: relative;
+  display: block;
+}
+.slide-btn {
+  background-color: transparent;
+  color: var(--color-primary-2);
+  height: 2em;
+  width: 2em;
+  padding: 0.5em;
+}
+.btn-off {
+  opacity: 0.5;
+}
+.slide-wrap {
+  overflow: hidden;
+  height: var(--slide-height);
+  width: var(--slide-width);
+  margin: auto;
+  position: relative;
+  border: 1em solid var(--color-primary-3);
+  border-radius: 1em;
+}
+.slideContainer {
+  height: var(--slide-height);
+  width: calc(var(--slide-width) * var(--num-slides));
+  position: relative;
+  background-color: black;
+  /* transition: 1s; */
+  transition-timing-function: ease-in-out;
+}
+.slide {
+  height: var(--slide-height);
+  width: var(--slide-width);
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide h6 {
+  padding: 1em;
+}
+.slide1 {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../img/geisel.png");
+  background-position: center;
+  background-blend-mode: darken;
+  position: relative;
+}
+.slide2 {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../img/guitar.jpg");
+  background-position: center;
+  background-blend-mode: darken;
+  position: relative;
+}
+.slide3 {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+    url("../img/books.jpg");
+  background-position: center;
+  background-blend-mode: darken;
+  position: relative;
+}
+.slide3 h6 {
+  position: absolute;
+  bottom: 0;
+}
+.pointerOff {
+  pointer-events: none;
+}
+.pointerOn {
+  pointer-events: auto;
+}
